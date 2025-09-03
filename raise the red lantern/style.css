@@ -1,0 +1,33 @@
+h1{
+    color:white;
+  position: absolute;
+  top: 50px;   
+  left: 10px;
+}
+
+h2{
+    color:white;
+    font-size: 20px;
+     position: absolute;
+  top: 150px;   
+  left: 10px;
+}
+
+h3{
+    color:white;
+    font-size: 20px;
+     position: absolute;
+  top: 190px;   
+  left: 10px;
+}
+.center {
+  text-align: center;
+}
+body {
+      margin: 0; 
+      padding: 0;
+      background-image: url("SPROJ_B_2025_3_6_3350 (1).png"); /* 图片路径 */
+      background-size: cover;    /* 图片等比例铺满整个页面 */
+      background-position: center; /* 居中显示 */
+      background-repeat: no-repeat; /* 不重复 */
+    }
