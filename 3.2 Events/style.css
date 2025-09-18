@@ -1,0 +1,58 @@
+body {
+  background-color:black
+
+}
+.image { 
+	 width: 300px;   /* 宽度 */
+  height: auto;   /* 高度自动按比例缩放 */
+
+}
+.para{
+ 
+  position: absolute;
+  top:10px;
+	left: 250px;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:white;
+   width:70%
+}
+
+.project_extra{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:100px,0;
+
+}
+section img {
+    width: 250px;
+    height: auto;
+    margin: 5px;
+}
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 两列 */
+    gap: 10px;                      /* 图片之间的间距 */
+    max-width: 700px;               /* 可选：控制整体宽度 */
+     margin: 200px auto 0;                 /* 可选：居中 */
+}
+section {
+  animation-name: move;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(0vh);
+  }
+
+36% {
+    transform: translateY(20vh);
+  }
+  70% {
+    transform: translateY(0vh);
+  }
+  
+}
