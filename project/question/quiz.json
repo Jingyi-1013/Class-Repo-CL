@@ -1,0 +1,60 @@
+{
+  "questions": [
+  "You step into an escape room, the air thick with a strange, eerie atmosphere. On the table, you shockingly see what appears to be your own decapitated head preserved in a jar. How do you react?",
+  "Trying to steady yourself, you walk toward a closet. As you open the door, someone suddenly jumps out screaming right in your face. What do you do?",
+  "Looking for a small comfort, you notice a seemingly delicious brownie on the table. You take a bite—only to discover it’s actually a sponge covered in frosting. How do you respond?",
+  "You open the bathroom door to gargle, but suddenly a cloud of blue, Jello-like powder pulls your head down. After wiping off, you realize you’re stained blue like a Smurf. How do you react?",
+  "As you’re still reeling, a deafening alarm blares from your backpack. What’s your reaction?",
+  "You dash to the bathroom and turn on the tap, but the lights suddenly go out. How do you respond?",
+  "You shout, 'Turn on the light!' but no one answers. You try to use the toilet, and as you flush, the lights snap back on—revealing three snakes staring at you from the doorway. What do you do?",
+  "Panicked, you rush out of the bathroom and spot a chair, hoping to sit and catch your breath. As you sit, the chair slightly collapses (but it’s safe). How do you react?",
+  "You start searching for your phone and other belongings to leave, only to find every contact mysteriously renamed 'Dennis Quaid.' How do you respond?",
+  "Finally,You receive a message from your friend showing all the embarrassing photos of yourself from the escape room. How do you react?"
+],
+"options": [
+  {
+    "text": "A. I find it amusing or ridiculous, and can laugh it off.",
+    "score": 0
+  },
+  {
+    "text": "B. Slightly annoyed or unsettled, but can manage it.",
+    "score": 50
+  },
+  {
+    "text": "C. Clearly upset, startled, or frustrated; my heart races.",
+    "score": 100
+  },
+  {
+    "text": "D. Extremely  scared, or furious; I can barely control myself.",
+    "score": 150
+  }
+],
+
+  "results": [
+  {
+    "min-score": 0,
+    "max-score": 249,
+    "prank-type": "Unflappable",
+    "description": "You are incredibly calm under bizarre or scary situations. Nothing seems to rattle you—you might even find humor in a decapitated head in a jar or a sudden scream. Friends can rely on you to stay composed during any prank or chaos."
+  },
+  {
+    "min-score": 250,
+    "max-score": 499,
+    "prank-type": "Slightly Jumpy",
+    "description": "You get startled easily, but you recover quickly. A sudden scream or an unexpected visual will make you jump or laugh nervously, but you can regain your composure and handle the prank with a mix of amusement and caution."
+  },
+  {
+    "min-score": 500,
+    "max-score": 749,
+    "prank-type": "Jumped and Shaken",
+    "description": "You are sensitive to pranks and surprises. Even minor shocks make your heart race and your palms sweat. You might scream, freeze, or react strongly, but your friends will have fun testing your limits in harmless pranks."
+  },
+  {
+    "min-score": 750,
+    "max-score": 1500,
+    "prank-type": "Terrified",
+    "description": "You are extremely easy to scare. Every sudden movement, loud sound, or bizarre visual will provoke a strong reaction. Your responses are intense, and pranks can be overwhelming—but this also makes you the perfect star of any spooky or absurd prank scenario."
+  }
+]
+
+}
